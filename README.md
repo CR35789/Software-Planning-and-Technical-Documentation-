@@ -1,4 +1,5 @@
-# Software Planning and Technical Documentation: a mobile app to connect home service providers and homeowners. 
+# Software Planning and Technical Documentation
+# Barakah Home Services : a mobile app to connect home service providers and homeowners. 
 # Define the scope and features
 - User Profiles: Separate profiles- services providers (workers) and customers (homeowners).
 - Service Listings: Categories for various services (cleaning, plumbing, electrical, HVAC, landscaping, pest control, home security system, roofing services, etc.).
@@ -20,12 +21,13 @@
 ![image.png] (home services process flow.png)
 # Folder Structure
 
-'''bash
+```bash
 /Barakah cleaning services
 │
 ├── /backend
 │   ├── /controllers
 │   │   └── translateController.js
+```
 
 # release plan.md
 # architecture.md
