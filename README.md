@@ -56,13 +56,13 @@
 │   ├── /utils
 │   │     └── errorHandler.js (function to handle and display error message gracefully)
 │   ├──   /App.js
-│   ├──    package.json
-│   ├──    babel.config.js (dependacies, metadata, scripts: axios, react)
-│   ├──    READ.md
+│   ├──   package.json
+│   ├──   babel.config.js (dependacies, metadata, scripts: axios, react)
+│   ├──   READ.md
 │
 │   ├── .gitignore
 ├── READ.md
-└── LICENSE (if needed)
+└── LICENSE (if required)
 ```
 
 
