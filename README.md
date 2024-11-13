@@ -49,7 +49,7 @@
 │   ├── /navigation
 │   │    └── (React Navigation setup)
 │   ├── /screens
-│   │    └── translateScreen.js (UI for entering text, selecting langusges, translate output)
+│   │    └── translateScreen.js (UI to input text, selecting languages, translate output)
 │   ├── /services
 │   │     └── api.js
 │   │     └── translateServices.js
