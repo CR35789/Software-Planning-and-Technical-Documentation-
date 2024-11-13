@@ -26,8 +26,57 @@
 │
 ├── /backend
 │   ├── /controllers
-│   │   └── translateController.js
+│   ├──  └── translateController.js
+│   ├── /models
+│   │    └── (add your mongoose models here)
+│   │   /routes
+│   │    └──  translateRoutes.js
+│   ├── /utils
+│   │   ├── errosHandler.js (function to handle and display error message gracefully)
+│   │   ├── logger.js
+│   │   ├── translateRoutes.js
+│   │   ├── validators.js
+│   ├── .env
+│   ├── server.js
+│   ├── package.json
+│   ├── READ.md
+│
+├── /frontend
+│   ├── /assets
+│   │    └── (images, fonts, icons etc.)
+│   ├── /components
+│        └── reusable UI components (buttons, input fields, modals)
+│   ├── /navigation
+│   │    └── (React Navigation setup)
+│   ├── /screens
+│   │    └── translateScreen.js (UI for entering text, selecting langusges, translate output)
+│   ├── /services
+│   │     └── api.js
+│   │     └── translateServices.js
+│   ├── /utils
+│   │     └── errorHandler.js (function to handle and display error message gracefully)
+│   ├──   /App.js
+│   ├──    package.json
+│   ├──    babel.config.js (dependacies, metadata, scripts: axios, react)
+│   ├──    READ.md
+│
+│   ├── .gitignore
+├── READ.md
+└── LICENSE (if needed)
 ```
+
+
+
+       
+           
+
+   
+    
+  
+
+     
+
+
 
 # release plan.md
 # architecture.md
