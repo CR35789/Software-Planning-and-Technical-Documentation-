@@ -32,7 +32,7 @@
 │   │   /routes
 │   │    └──  translateRoutes.js
 │   ├── /utils
-│   │   ├── errosHandler.js (function to handle and display error message gracefully)
+│   │   ├── errorHandler.js (function to handle and display error message gracefully)
 │   │   ├── logger.js
 │   │   ├── translateRoutes.js
 │   │   ├── validators.js
