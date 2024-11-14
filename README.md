@@ -66,9 +66,12 @@
 
 ## Details of each directory
 ### Backend
--   `/controllers`: contains your controller files, which handle incoming HTTP requests and business logic   
-
-
+─   `/controllers`: Contains your controller files, which handle incoming HTTP requests and business logic.   
+─   `/models`: Contains Moongoose models if you using MongoDB or any other Object role modelling models. 
+─   `/routes`: Contains route definitions that map URL paths to controller actions. 
+─   `/utils`: Utility functions (error handling, logging, translation service).
+─   `/.env`: Environment variables for your backend, (API keys, database connection strings, etc.). 
+─   `package.json`: Lists backened dependacies and scripts. 
 
 # release plan.md
 # architecture.md
