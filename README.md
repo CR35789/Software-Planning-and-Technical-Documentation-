@@ -65,16 +65,32 @@
 ```
 
 ## Details of each directory
+
 ### Backend
-─   `/controllers`: Contains your controller files, which handle incoming HTTP requests and business logic.   
-─   `/models`: Contains Moongoose models if you using MongoDB or any other Object role modelling models. 
-─   `/routes`: Contains route definitions that map URL paths to controller actions. 
-─   `/utils`: Utility functions (error handling, logging, translation service).
-─   `/.env`: Environment variables for your backend, (API keys, database connection strings, etc.). 
-─   `package.json`: Lists backened dependacies and scripts. 
+- `/controllers`: Contains your controller files, which handle incoming HTTP requests and business logic.   
+- `/models`: Contains Moongoose models if you using MongoDB or any other Object role modelling models. 
+- `/routes`: Contains route definitions that map URL paths to controller actions. 
+- `/utils`: Utility functions (error handling, logging, translation service).
+- `/.env`: Environment variables for your backend, (API keys, database connection strings, etc.).
+- `server.js`: Entry point of your node.js application.
+- `/package.json`: Lists backened dependacies and scripts.
+
+### Frontend
+- `/assets`: Contains static assets (images, fonts).
+- `/components`: Reusable UI components to be used across multiple screen.
+- `/navigations`: Navigation configuration using React Navigation.
+- `/screens`: Individual screen components, each representing a different part of UI.
+- `/services`: Contains services for making API interaction, interacting with the backend.
+- `/utils`: Utility functions managing error handling, logginand translation service.
+- `App.js`: Entry point of the React Native app.
+- `babel.config.js`: Babel configuration for React Native.
+- `package.json`: Lists frontend dependencies and scripts.
+
 
 # release plan.md
 # architecture.md
+
 # api docs.md
 # README.md  # Project overview, instructions, and key links
-# src  # Your source code
+# src  
+# Your source code
