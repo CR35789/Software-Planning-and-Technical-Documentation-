@@ -34,11 +34,11 @@
 │   │   ├── errorHandler.js (function to handle and display error message gracefully)
 │   │   ├── logger.js
 │   │   ├── translateRoutes.js
-│   │   ├── validators.js
+│   │   └── validators.js
 │   ├── .env
 │   ├── server.js
 │   ├── package.json
-│   ├── READ.md
+│   └── READ.md
 │
 ├── /frontend
 │   ├── /assets
@@ -57,7 +57,7 @@
 │   ├── /App.js
 │   ├── package.json
 │   ├── babel.config.js (dependacies, metadata, scripts: axios, react)
-│   ├── READ.md
+│   └── READ.md
 │
 ├── .gitignore
 ├── READ.md
